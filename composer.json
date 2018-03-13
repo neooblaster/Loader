@@ -1,0 +1,22 @@
+{
+    "name": "neooblaster/loader",
+    "description": "A PHP Trait containing transversal loaders",
+    "type": "library",
+    "keywords": ["Template", "PHP", "Trait", "Loader", "CSS", "LESS", "JavaScript"],
+    "licence": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Nicolas DUPRE",
+            "email": "neo-blaster@hotmail.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Loader\\": "src/"
+        }
+    }
+}
